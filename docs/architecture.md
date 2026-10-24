@@ -1,0 +1,2 @@
+# Architecture
+User → React frontend → FastAPI → document extraction and clause segmentation → ChromaDB retrieval → Gemini generation (when configured) → evidence-referenced response. SQLite (default, zero setup) stores users/documents/clauses; any SQLAlchemy database URL can be set via DATABASE_URL. Retrieval filters by document and user IDs. The prototype uses heuristic fallbacks for risk and notice-period conflict screening.

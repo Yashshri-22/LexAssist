@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q1",
+    "document": "synthetic_employment_agreement.txt",
+    "question": "What is the notice period?",
+    "expected_evidence": [
+      "4",
+      "7"
+    ],
+    "review_status": "demo_unreviewed"
+  },
+  {
+    "id": "q2",
+    "document": "synthetic_employment_agreement.txt",
+    "question": "What is the monthly salary?",
+    "expected_evidence": [
+      "3"
+    ],
+    "review_status": "demo_unreviewed"
+  }
+]

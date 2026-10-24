@@ -1,0 +1,2 @@
+# RAG pipeline
+Document clauses are indexed in ChromaDB with user and document metadata. Queries retrieve top relevant chunks scoped to the authenticated user's document. Gemini receives excerpts and an instruction to answer only from evidence. When Gemini is unavailable, the UI reports this transparently. No authoritative legal corpus is bundled; ingest verified sources before making legal-source claims.
